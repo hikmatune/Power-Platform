@@ -1,0 +1,3 @@
+Manully triggered Power Automate
+Given a SharePoint online site URL the Power Automate will convert all the modern SharePoint pages in "Site Pages" library to HTML and PDF. The output is stored in user's OneDrive for Business root /PowerAutomatHTMLs and /PowerAutomatPDFs. 
+The images are converted to binary base64 and primarily stored as HTML, then convert to PDF if the size is under 2 MB (there is a 2 MB limit when converting file using OneDrive for Business Convert File Connector).
